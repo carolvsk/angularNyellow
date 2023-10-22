@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background: linear-gradient(90deg, #009295 32%,#17c9cd 100%);
+}
+.list_nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 40vw;
+
+}
+.list_ul li{
+    width: 167px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Galdeano', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+} 
+
+a {
+    text-decoration: none;
+    color: #ffff; 
+    transition: color 0.2s;
+    font-size: 30px;
+}
+
+
+a:hover {
+    color: #E37E40; 
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.footer-logo {
+    width: 270px; /* Ajuste a largura do logotipo conforme necessário */
+    height: auto;
+    position: absolute;
+    left: 50px; /* Ajuste a posição à esquerda conforme necessário */
+    top: 0; /* Alinha o logotipo ao topo do footer */
+    
+}
+
+p{
+    font-family: 'Galdeano', sans-serif;
+    font-size: 20px;
+    margin-right: 50px;
+    color: #F1DEC2;
+}
+
+
+
+

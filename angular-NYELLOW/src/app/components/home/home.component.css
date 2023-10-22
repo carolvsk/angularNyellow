@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinhar à direita */
+    width: 100%;
+    margin-top: 50px; /* Adicionar espaço acima da imagem */
+}
+
+.intro-image {
+    margin-right: 420px; /* Adicionar espaço à direita da imagem */
+    margin-left: 50px ;
+}
+
+.text-content {
+    flex: 1; /* Ocupa o espaço restante horizontalmente */
+}
+
+h1 {
+    font-family: 'Galdeano', sans-serif;
+    width: 1050px;
+    height: 170px;
+    color: #EBA60E;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+p {
+    font-family: 'Galdeano', sans-serif;
+    width: 1050px;
+    height: 579px;
+    color: #7F7474;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.intro-image {
+    width: 1050px; /* Altura automática para manter a proporção */
+}
+/* Estilos para a seção de modelos */
+/* Estilos para a seção de modelos */
+/* Estilos para a seção de modelos */
+.model-images {
+    display: flex;
+    justify-content: space-between; /* Espaço entre as imagens */
+    margin-top: 50px; /* Espaço acima das imagens */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.model-image-container {
+    position: relative; /* Permite posicionar elementos filhos relativos a este contêiner */
+}
+
+.model-image {
+    width: 800px; /* Largura das imagens */
+    height: auto; /* Altura automática para manter a proporção */
+}
+
+.model-info {
+    position: absolute; /* Mantido como absolute */
+    bottom: 0; /* Alinhado à parte inferior da imagem */
+    left: 0; /* Alinhado à esquerda da imagem */
+    background: rgba(255, 255, 255, 0.8); /* Cor de fundo do retângulo com transparência */
+    width: 100%; /* Largura igual à imagem */
+    padding: 10px; /* Espaçamento interno do retângulo */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    opacity: 0; /* Inicialmente invisível */
+    transition: opacity 0.3s; /* Efeito de transição */
+    z-index: 1; /* Valor maior do que a imagem para aparecer à frente */
+    height: 100%; /* Altura igual à imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-text {
+    width: 100%; /* Ocupa todo o espaço disponível horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-family: 'Galdeano', sans-serif;
+    color:  #7F7474;
+    font-size: 50px;
+    padding: 10px 0; 
+    position: relative;
+}
+.modelo{
+    width: 100%; /* Ocupa todo o espaço disponível horizontalmente */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    font-family: 'Galdeano', sans-serif;
+    color:  #7F7474;
+    font-size: 50px;
+}
+.model-image-container:hover .model-info {
+    opacity: 1; /* Torna visível quando o mouse está sobre a imagem */
+}
+
+.info-subtext {
+    position: absolute;
+    top: 100%; /* Coloca o texto abaixo de "R$ 450,00" */
+    left: 0; /* Alinha à esquerda */
+    width: 100%; /* Largura igual à caixa pai */
+    text-align: center; /* Centraliza horizontalmente */
+}
