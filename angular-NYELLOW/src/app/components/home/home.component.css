@@ -42,9 +42,7 @@ p {
 .intro-image {
     width: 1050px; /* Altura automática para manter a proporção */
 }
-/* Estilos para a seção de modelos */
-/* Estilos para a seção de modelos */
-/* Estilos para a seção de modelos */
+ 
 .model-images {
     display: flex;
     justify-content: space-between; /* Espaço entre as imagens */

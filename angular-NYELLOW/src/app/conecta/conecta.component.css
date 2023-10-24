@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1075px;
+    margin: 0;
+}
+
+button{
+    background-color: #E37E40;
+    font-family: 'Galdeano', sans-serif;
+    color: #F1DCC1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px; /* Aumenta o preenchimento do botão */
+    font-size: 28px;
+    cursor: pointer;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    max-width: 300px; /* Define uma largura máxima para o botão */
+    height: 60px; /* Altura do botão aumentada */
+
+}
+button:hover {
+    background-color: #618181;
+}
+
+li{
+    font-family: 'Galdeano', sans-serif;
+    color: #E37E40;
+    font-size: 28px;
+    
+}
+
+p{
+    color: 7F7474;
+    font-size: 50px;
+    font-family: 'Galdeano', sans-serif;
+}

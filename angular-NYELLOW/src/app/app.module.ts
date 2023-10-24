@@ -8,7 +8,10 @@ import { HomeComponent } from './components/home/home.component';
 import { CardsComponent } from './components/cards/cards.component';
 import { FuncionariosComponent } from './components/funcionarios/funcionarios.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { DocumentacaoComponent } from './components/documentacao/documentacao.component';
+import { loginComponent } from './components/login/login.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ConectaComponent } from './conecta/conecta.component';
 
 @NgModule({
   declarations: [
@@ -16,12 +19,14 @@ import { DocumentacaoComponent } from './components/documentacao/documentacao.co
     HomeComponent,
     CardsComponent,
     FuncionariosComponent,
-    DocumentacaoComponent
+    loginComponent,
+    ConectaComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, FormsModule,
     AppRoutingModule,
-    BrowserAnimationsModule,MatMenuModule
+    BrowserAnimationsModule,MatMenuModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

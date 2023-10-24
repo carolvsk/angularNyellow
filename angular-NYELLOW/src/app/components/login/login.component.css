@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1075px;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #7B9494;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(221, 121, 121, 0.1);
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h2 {
+    color: #F1DCC1;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumenta o espaço entre os elementos */
+    max-width: 300px; /* Aumenta a largura máxima dos elementos internos */
+}
+
+.login-input {
+    border: 2px solid #7B9494;
+    border-radius: 25px; /* Bordas mais arredondadas */
+    padding: 10px; /* Aumenta o preenchimento */
+    font-size: 30px; /* Tamanho da fonte aumentado */
+    font-family: 'Galdeano', sans-serif;
+    width: 100%;
+    height: 40px; /* Altura dos inputs aumentada */
+}
+
+.login-button {
+    background-color: #E37E40;
+    font-family: 'Galdeano', sans-serif;
+    color: #F1DCC1;
+    border: none;
+    border-radius: 10px;
+    padding: 10px; /* Aumenta o preenchimento do botão */
+    font-size: 28px;
+    cursor: pointer;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    max-width: 300px; /* Define uma largura máxima para o botão */
+    height: 60px; /* Altura do botão aumentada */
+}
+
+.login-button:hover {
+    background-color: #618181;
+}
